@@ -412,6 +412,26 @@
     [
       "ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5",
       "Root"
+    ],
+    [
+      "ba29ec8f-07b0-421f-8a8f-2bec5c180b4e",
+      "GasDC-DC"
+    ],
+    [
+      "38806c20-c666-4a91-aa97-0da2574a671c",
+      "MotorDC-DC"
+    ],
+    [
+      "81ade8d9-e0cd-40d7-870f-900880ef7d13",
+      "FanDC-DC"
+    ],
+    [
+      "5f5b5737-e9f8-44d3-b0cf-491c38c8305c",
+      "RomeoDC-DC"
+    ],
+    [
+      "befe302f-1037-4b01-97fb-7c968d5dc004",
+      "AonDC-DC"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DC-DC converters")(type "KiCad")(uri "${KIPRJMOD}/DC-DC converters.kicad_sym")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "C:/Users/alber/Desktop/bms/lib/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+)

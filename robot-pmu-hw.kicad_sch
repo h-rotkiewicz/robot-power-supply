@@ -972,6 +972,211 @@
 		)
 		(uuid "f1bd3531-f1f8-4604-a0ff-4cdceebd6841")
 	)
+	(sheet
+		(at 236.22 95.25)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "38806c20-c666-4a91-aa97-0da2574a671c")
+		(property "Sheetname" "MotorDC-DC"
+			(at 236.22 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MotorDC-DC.kicad_sch"
+			(at 249.174 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 151.13)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f5b5737-e9f8-44d3-b0cf-491c38c8305c")
+		(property "Sheetname" "RomeoDC-DC"
+			(at 236.22 150.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RomeoDC-DC.kicad_sch"
+			(at 250.19 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 123.19)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81ade8d9-e0cd-40d7-870f-900880ef7d13")
+		(property "Sheetname" "FanDC-DC"
+			(at 236.22 122.4784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FanDC-DC.kicad_sch"
+			(at 247.396 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 67.31)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ba29ec8f-07b0-421f-8a8f-2bec5c180b4e")
+		(property "Sheetname" "GasDC-DC"
+			(at 236.22 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GasDC-DC.kicad_sch"
+			(at 247.396 65.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 179.07)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "befe302f-1037-4b01-97fb-7c968d5dc004")
+		(property "Sheetname" "AonDC-DC"
+			(at 236.22 178.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AonDC-DC.kicad_sch"
+			(at 247.142 177.038 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
+					(page "6")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
