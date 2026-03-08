@@ -442,7 +442,7 @@
 		)
 		(uuid "3354b4f8-8ce6-4de1-b552-41d6a83f2d1f")
 	)
-	(text_box "Internal AON DC-DC \n3v3@2A?"
+	(text_box "Internal AON DC-DC \n3v3@(<1A)"
 		(exclude_from_sim no)
 		(at 267.97 179.07 0)
 		(size 33.02 25.4)
@@ -585,9 +585,9 @@
 		)
 		(uuid "bb066219-8b6d-4f7f-b6c1-6be069e432fa")
 	)
-	(text_box "Fan DC-DC \n12V@(2?)A"
+	(text_box "Fan DC-DC \n12V@(2)A"
 		(exclude_from_sim no)
-		(at 267.97 123.19 0)
+		(at 320.04 135.89 0)
 		(size 33.02 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -633,7 +633,7 @@
 		)
 		(uuid "ccfdb63b-6a9b-4535-84df-72d96e359c00")
 	)
-	(text_box "Motor DC-DC \n6V@(>3)A"
+	(text_box "Motor DC-DC \n6V@(3)A"
 		(exclude_from_sim no)
 		(at 267.97 95.25 0)
 		(size 33.02 25.4)
@@ -657,9 +657,9 @@
 		)
 		(uuid "d6e0333c-dcaf-4236-a0b7-53c3a012c2bb")
 	)
-	(text_box "Peripheral DC-DC \nLogic level @(?)A"
+	(text_box "Peripheral DC-DC \nLogic level @(<1)A"
 		(exclude_from_sim no)
-		(at 267.97 151.13 0)
+		(at 318.77 165.1 0)
 		(size 33.02 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -731,6 +731,16 @@
 			(color 68 158 255 1)
 		)
 		(uuid "12223aaa-251f-48d6-ab32-755c31d8f67c")
+	)
+	(wire
+		(pts
+			(xy 212.09 160.02) (xy 212.09 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163d77ab-2a6b-4368-96da-135cbc3f5492")
 	)
 	(wire
 		(pts
@@ -1050,6 +1060,16 @@
 			(color 227 93 255 1)
 		)
 		(uuid "aa45fd3d-ab35-4518-9d6b-1d67b70aae7f")
+	)
+	(wire
+		(pts
+			(xy 212.09 158.75) (xy 267.97 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16d8793-cb61-4b2d-a63e-c8c1a19cd9c4")
 	)
 	(wire
 		(pts
@@ -1469,101 +1489,20 @@
 				(justify left top)
 			)
 		)
+		(pin "romeo_en" bidirectional
+			(at 267.97 158.75 180)
+			(uuid "5a8c1040-0213-4152-89f5-1d3b49dc9b0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 197.485 86.995)
-		(size 38.735 52.705)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 130 179 102 1.0000)
-		)
-		(uuid "6145706c-b7b6-4b66-b716-8a5b8a9fa9cd")
-		(property "Sheetname" "Charger"
-			(at 197.485 86.2834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "charger.kicad_sch"
-			(at 208.534 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "~{ST_ALERT}" output
-			(at 201.93 139.7 270)
-			(uuid "1c3fc2f8-f338-4ffd-9c83-ed8463542c70")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CHG_CE#" input
-			(at 204.47 139.7 270)
-			(uuid "fc625a62-28ab-4823-88e9-1e43c211012f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CHG_INT#" input
-			(at 207.01 139.7 270)
-			(uuid "e6727c48-fd79-409f-a9a6-4e26c348b5fa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "CHG_QON#" input
-			(at 209.55 139.7 270)
-			(uuid "6d1d9464-e08e-4c66-99d2-4376ae382d27")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{I2C}" input
-			(at 199.39 139.7 270)
-			(uuid "f86c5be7-b025-42eb-bb07-5622e79acc81")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "robot-pmu-hw"
-				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5"
-					(page "10")
 				)
 			)
 		)
