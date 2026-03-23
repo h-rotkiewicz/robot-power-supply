@@ -994,6 +994,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -1012,7 +1013,7 @@
 			)
 		)
 		(property "Sheetfile" "MotorDC-DC.kicad_sch"
-			(at 280.924 93.218 0)
+			(at 267.97 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,9 +1021,9 @@
 				(justify left top)
 			)
 		)
-		(pin "motor_en " bidirectional
+		(pin "motor_en" bidirectional
 			(at 267.97 116.84 180)
-			(uuid "5764cbf1-19f9-4630-9b67-de3dafb46160")
+			(uuid "bd96d619-ed66-4497-8659-e79f910804e8")
 			(effects
 				(font
 					(size 1.27 1.27)
