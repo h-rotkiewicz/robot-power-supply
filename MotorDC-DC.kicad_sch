@@ -1122,6 +1122,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Hardware Components:R_1k_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_1k_0402"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CR0402-FX-1001GLF"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1k"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1k_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1k_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Hardware Components:R_20k_0402"
 			(pin_numbers
 				(hide yes)
@@ -3225,195 +3413,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lib:R_1k_0201"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 15.24 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_1k_0201"
-				(at 15.24 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Hardware Components Footprints:R_0201"
-				(at 15.24 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-				(at 15.24 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "1 kOhms ±1% 0.05W, 1/20W, Chip Resistor 0402 (1005 Metric) Thick Film"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CR0201-FX-1001GLF"
-				(at 15.24 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Bourns"
-				(at 15.24 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 15.24 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 15.24 -27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Val" "1k"
-				(at 15.24 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 15.24 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "0201, SMT, RESISTOR, PASSIVE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_1k_0201_0_1"
-				(rectangle
-					(start 0.635 0.889)
-					(end 4.445 -0.889)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1k_0201_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 0.635)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lib:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -5356,7 +5355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lib:R_1k_0201")
+		(lib_id "Hardware Components:R_1k_0402")
 		(at 251.46 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5364,8 +5363,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e02f004-9d78-415b-bfd6-5b652c456160")
-		(property "Reference" "R16"
+		(uuid "367f683d-a3ae-4998-9731-3c6550dc3b4e")
+		(property "Reference" "R24"
 			(at 254 81.28 90)
 			(effects
 				(font
@@ -5375,8 +5374,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_1k_0201"
-			(at 264.16 69.85 0)
+		(property "Value" "R_1k_0402"
+			(at 264.16 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5386,8 +5385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Hardware Components Footprints:R_0201"
-			(at 266.7 69.85 0)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 266.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5397,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 269.24 69.85 0)
+			(at 269.24 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 kOhms ±1% 0.05W, 1/20W, Chip Resistor 0402 (1005 Metric) Thick Film"
+		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
 			(at 251.46 85.09 0)
 			(effects
 				(font
@@ -5417,8 +5416,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CR0201-FX-1001GLF"
-			(at 271.78 69.85 0)
+		(property "MPN" "CR0402-FX-1001GLF"
+			(at 271.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5428,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 274.32 69.85 0)
+			(at 274.32 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5439,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 276.86 69.85 0)
+			(at 276.86 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5450,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 279.4 69.85 0)
+			(at 279.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,35 +5471,25 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 261.62 69.85 0)
+			(at 261.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 251.46 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "1"
+			(uuid "55085c9e-e413-44f1-9e27-d4f0c748e275")
 		)
 		(pin "2"
-			(uuid "6486726e-d90a-4270-a9d4-13d14a3149d8")
-		)
-		(pin "1"
-			(uuid "0dc54fe2-5cb4-4538-b7c9-3e0826d1e255")
+			(uuid "3e25a1e4-7e75-41c6-b9ba-f6c152f111a8")
 		)
 		(instances
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/38806c20-c666-4a91-aa97-0da2574a671c"
-					(reference "R16")
+					(reference "R24")
 					(unit 1)
 				)
 			)
