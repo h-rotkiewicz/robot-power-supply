@@ -3640,10 +3640,26 @@
 		(uuid "e54c8b1a-c296-4046-93e1-bc5bab7758e1")
 	)
 	(junction
+		(at 182.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f534bccd-c93b-4259-8d21-83a05db36ba2")
+	)
+	(junction
 		(at 58.42 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fec903e0-fd36-4252-a715-cc1bb7bf175a")
+	)
+	(wire
+		(pts
+			(xy 186.69 78.74) (xy 182.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01aa7edf-91af-446d-83cc-75622515acc9")
 	)
 	(wire
 		(pts
@@ -3697,6 +3713,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 78.74) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237cd4c1-8b54-482b-8d8c-e26d63899ef1")
+	)
+	(wire
+		(pts
 			(xy 100.33 88.9) (xy 110.49 88.9)
 		)
 		(stroke
@@ -3744,6 +3770,16 @@
 			(type default)
 		)
 		(uuid "45359084-8309-4185-80f4-140aacfd66c8")
+	)
+	(wire
+		(pts
+			(xy 182.88 88.9) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b49c155-3d8c-4546-a30f-aa19baa78eab")
 	)
 	(wire
 		(pts
@@ -4097,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 187.96 88.9)
+			(xy 173.99 88.9) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4145,6 +4181,17 @@
 			(justify right)
 		)
 		(uuid "0847d446-1633-447d-8408-533aff9f7e2c")
+	)
+	(hierarchical_label "CH2_ADC"
+		(shape input)
+		(at 186.69 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24776939-20b2-42ff-9ffa-0924ba8cae6c")
 	)
 	(symbol
 		(lib_id "lib:+15V")
@@ -4207,6 +4254,72 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/38806c20-c666-4a91-aa97-0da2574a671c"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 173.99 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08e31078-e82f-48d8-a3e5-ec67f27eeba4")
+		(property "Reference" "#PWR073"
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b9a50e0-7b09-45ca-b16b-5ff34ca0f017")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/38806c20-c666-4a91-aa97-0da2574a671c"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5660,6 +5773,138 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/38806c20-c666-4a91-aa97-0da2574a671c"
 					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:2N7002_SOT-23-3")
+		(at 181.61 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54e9edbf-5705-48c0-9d03-d65369714afc")
+		(property "Reference" "Q6"
+			(at 170.18 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002_SOT-23-3"
+			(at 158.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:SOT-23-3"
+			(at 158.75 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power MOSFET, N Channel, 60 V, 115 mA, 1.2 ohm, SOT-23, Surface Mount"
+			(at 121.666 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2N7002"
+			(at 170.18 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "ON Semiconductor"
+			(at 158.75 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 158.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d06a127d-8928-4abe-a53b-e42be353fc25")
+		)
+		(pin "2"
+			(uuid "e7b9267c-c16e-498d-b79c-8c41ee4e921e")
+		)
+		(pin "1"
+			(uuid "dbe075d8-caab-4376-a367-6d214fcf8012")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/38806c20-c666-4a91-aa97-0da2574a671c"
+					(reference "Q6")
 					(unit 1)
 				)
 			)

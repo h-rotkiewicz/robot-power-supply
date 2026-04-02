@@ -496,6 +496,19 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "ADC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "line_style": 0,
+        "name": "enable",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 0, 194)"
       }
     ],
     "meta": {
@@ -503,7 +516,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "*_en*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -830,20 +848,20 @@
       "Root"
     ],
     [
-      "ba29ec8f-07b0-421f-8a8f-2bec5c180b4e",
-      "GasDC-DC"
+      "3adc4156-9565-4c05-a192-d0b5e3ebe13a",
+      "channel_output_0"
     ],
     [
-      "38806c20-c666-4a91-aa97-0da2574a671c",
-      "MotorDC-DC"
+      "1f323277-181d-40d4-bd4e-44f63c004b51",
+      "channel_output_1"
     ],
     [
-      "81ade8d9-e0cd-40d7-870f-900880ef7d13",
-      "FanDC-DC"
+      "c55015ba-7066-4a27-85a3-e02e5b198070",
+      "channel_output_2"
     ],
     [
-      "5f5b5737-e9f8-44d3-b0cf-491c38c8305c",
-      "RomeoDC-DC"
+      "d0cd7c0d-5410-4ef7-bf95-0b680ed8181c",
+      "channel_output_3"
     ],
     [
       "befe302f-1037-4b01-97fb-7c968d5dc004",

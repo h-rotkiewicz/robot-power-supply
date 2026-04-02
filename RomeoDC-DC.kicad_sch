@@ -10,6 +10,196 @@
 		(rev "rev 1.0")
 	)
 	(lib_symbols
+		(symbol "Analog_DAC:MCP4725xxx-xCH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP4725xxx-xCH"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dac twi"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCP4725xxx-xCH_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP4725xxx-xCH_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Hardware Components:C_100n_16V_X7R_0402"
 			(pin_numbers
 				(hide yes)
@@ -1126,7 +1316,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hardware Components:R_191k_0402"
+		(symbol "Hardware Components:R_160k_0402"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1146,7 +1336,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "R_191k_0402"
+			(property "Value" "R_160k_0402"
 				(at 20.32 -12.7 0)
 				(effects
 					(font
@@ -1179,7 +1369,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMD Chip Resistor, 191 kohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
+			(property "Description" "SMD Chip Resistor, Ceramic, 160 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1188,7 +1378,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "CR0402-FX-1913GLF"
+			(property "MPN" "CR0402-FX-1603GLF"
 				(at 20.32 -20.32 0)
 				(effects
 					(font
@@ -1232,7 +1422,7 @@
 					(hide yes)
 				)
 			)
-			(property "Val" "191k"
+			(property "Val" "160k"
 				(at 20.32 -7.62 0)
 				(effects
 					(font
@@ -1261,7 +1451,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_191k_0402_0_1"
+			(symbol "R_160k_0402_0_1"
 				(rectangle
 					(start 0.635 0.889)
 					(end 4.445 -0.889)
@@ -1274,7 +1464,7 @@
 					)
 				)
 			)
-			(symbol "R_191k_0402_1_1"
+			(symbol "R_160k_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -1651,6 +1841,194 @@
 				)
 			)
 			(symbol "R_20k_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Hardware Components:R_51k_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "R_51k_0402"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Chip Resistor, 51 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CR0402-FX-5102GLF"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Bourns"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "51k"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, RESISTOR, PASSIVE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_51k_0402_0_1"
+				(rectangle
+					(start 0.635 0.889)
+					(end 4.445 -0.889)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_51k_0402_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 0.635)
@@ -2111,6 +2489,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lib:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lib:2N7002_SOT-23-3"
 			(pin_names
 				(offset 0)
@@ -2463,6 +2966,217 @@
 					(at 7.62 -3.81 90)
 					(length 2.54)
 					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lib:C_1u_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_1u_0402"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Hardware Components Footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+				(at 20.32 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C1005X6S1A105K050BC"
+				(at 20.32 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 20.32 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Val" "1u"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1u_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1u_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3545,7 +4259,7 @@
 	)
 	(text "12V@3A\n"
 		(exclude_from_sim no)
-		(at 209.55 87.63 0)
+		(at 210.82 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3554,10 +4268,22 @@
 		(uuid "9e5003b4-2b81-4bae-a951-ed30945c0caa")
 	)
 	(junction
-		(at 200.66 90.17)
+		(at 182.88 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "106126d8-0487-4e50-8160-1ded8c7639b7")
+	)
+	(junction
+		(at 201.93 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "116a7578-e126-48f0-8d46-03c7602ac498")
+	)
+	(junction
+		(at 227.33 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39f615c0-df80-45a6-be25-f5c8ffd9fd4d")
 	)
 	(junction
 		(at 74.93 90.17)
@@ -3572,7 +4298,13 @@
 		(uuid "416eb94e-81cc-4cfc-9d6f-29b63a437fa6")
 	)
 	(junction
-		(at 209.55 90.17)
+		(at 195.58 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5720ef59-5ed9-4296-9bda-9a527b1f6a6a")
+	)
+	(junction
+		(at 210.82 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f133bbe-ef3e-48a9-997d-953814eb5a25")
@@ -3602,7 +4334,7 @@
 		(uuid "872ba4fc-fd7d-44f5-8fb4-5fd8b41ca7f5")
 	)
 	(junction
-		(at 191.77 90.17)
+		(at 193.04 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d8b169c-f54d-457f-858f-0b669fbc1d4a")
@@ -3644,7 +4376,7 @@
 		(uuid "ca90b88c-e7e1-43af-97af-f3ecb764f693")
 	)
 	(junction
-		(at 250.19 109.22)
+		(at 252.73 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec3d5b6d-6398-453a-ad87-19875d6d4786")
@@ -3654,6 +4386,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1ca89cd-180e-4689-8d77-04f776002df5")
+	)
+	(bus_entry
+		(at 236.22 116.84)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ef7943-0da5-4f27-8770-782a15cdeb99")
+	)
+	(bus_entry
+		(at 236.22 119.38)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9073624-7b4d-4492-bf3b-b615509cc1b0")
 	)
 	(wire
 		(pts
@@ -3677,7 +4427,17 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 109.22) (xy 257.81 109.22)
+			(xy 199.39 115.57) (xy 195.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c47d4b-8804-48c6-8b9f-af269b434dfe")
+	)
+	(wire
+		(pts
+			(xy 252.73 80.01) (xy 260.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3707,6 +4467,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 90.17) (xy 201.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1398e69f-47b1-448f-9a12-c5d7a96e9a1c")
+	)
+	(wire
+		(pts
 			(xy 149.86 93.98) (xy 163.83 93.98)
 		)
 		(stroke
@@ -3725,6 +4495,26 @@
 		)
 		(uuid "2479b7b5-c17d-4ba7-84c9-fdbc20ca3c1e")
 	)
+	(bus
+		(pts
+			(xy 236.22 115.57) (xy 236.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c09c2fb-c0be-4f95-8bfd-a6703cbcee8b")
+	)
+	(wire
+		(pts
+			(xy 229.87 124.46) (xy 229.87 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7f62a4-f1f4-4929-ae89-d3830dab901a")
+	)
 	(wire
 		(pts
 			(xy 167.64 95.25) (xy 167.64 93.98)
@@ -3737,7 +4527,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 90.17) (xy 209.55 90.17)
+			(xy 201.93 90.17) (xy 210.82 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3777,7 +4567,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 106.68) (xy 250.19 109.22)
+			(xy 252.73 77.47) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3827,6 +4617,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 119.38) (xy 233.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b40706-829e-4c60-93e6-68dac57c22ca")
+	)
+	(wire
+		(pts
 			(xy 109.22 92.71) (xy 109.22 90.17)
 		)
 		(stroke
@@ -3847,6 +4647,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 107.95) (xy 227.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fff2da-6eb6-418d-927e-e037b3516406")
+	)
+	(wire
+		(pts
 			(xy 163.83 90.17) (xy 171.45 90.17)
 		)
 		(stroke
@@ -3857,13 +4667,33 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 109.22) (xy 250.19 109.22)
+			(xy 248.92 80.01) (xy 252.73 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "60b4da51-eb67-459f-b00e-5ecec2f613f7")
+	)
+	(wire
+		(pts
+			(xy 182.88 115.57) (xy 190.5 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6486c720-0139-4809-820f-bffd14a04da3")
+	)
+	(wire
+		(pts
+			(xy 219.71 121.92) (xy 233.68 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c6579b-2f80-4145-808d-631fa94da4f1")
 	)
 	(wire
 		(pts
@@ -3897,7 +4727,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 101.6) (xy 182.88 102.87)
+			(xy 182.88 101.6) (xy 182.88 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3925,6 +4755,36 @@
 		)
 		(uuid "6ffda7c3-db44-45f7-936e-0c6869a91fb9")
 	)
+	(bus
+		(pts
+			(xy 237.49 114.3) (xy 236.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ac7748-2eab-4046-8985-94d376c5026c")
+	)
+	(wire
+		(pts
+			(xy 209.55 114.3) (xy 209.55 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77ab7f70-725f-4546-916c-7a948b3ef93a")
+	)
+	(bus
+		(pts
+			(xy 236.22 116.84) (xy 236.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9465a11e-eaad-45b5-b866-2dff75f6d9f1")
+	)
 	(wire
 		(pts
 			(xy 119.38 104.14) (xy 118.11 104.14)
@@ -3947,7 +4807,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 90.17) (xy 220.98 90.17)
+			(xy 210.82 90.17) (xy 222.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3964,6 +4824,26 @@
 			(type default)
 		)
 		(uuid "b09a84bb-0e42-40f8-8d42-5afe988868ec")
+	)
+	(wire
+		(pts
+			(xy 182.88 115.57) (xy 182.88 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b962045a-a0a8-4ef8-aa5a-2942c623cb7d")
+	)
+	(wire
+		(pts
+			(xy 195.58 81.28) (xy 195.58 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd2e032-84f2-44c7-a75f-c98e897057e0")
 	)
 	(wire
 		(pts
@@ -4055,9 +4935,49 @@
 		)
 		(uuid "ce084992-99ae-45f0-81de-d26574992869")
 	)
+	(bus
+		(pts
+			(xy 237.49 114.3) (xy 240.03 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da982b00-1614-4d6b-8eb0-1822e954d0dc")
+	)
 	(wire
 		(pts
-			(xy 182.88 90.17) (xy 191.77 90.17)
+			(xy 199.39 121.92) (xy 199.39 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc61d44e-27ec-4eb5-a72c-8638596b19a1")
+	)
+	(wire
+		(pts
+			(xy 219.71 124.46) (xy 229.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df676ece-c01c-4a8c-9e2b-115cda346d36")
+	)
+	(wire
+		(pts
+			(xy 198.12 81.28) (xy 195.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfab0c96-ef9b-43a3-b307-04f6e208c79c")
+	)
+	(wire
+		(pts
+			(xy 182.88 90.17) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4067,7 +4987,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 107.95) (xy 182.88 109.22)
+			(xy 182.88 127) (xy 182.88 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4097,7 +5017,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 90.17) (xy 200.66 90.17)
+			(xy 193.04 90.17) (xy 195.58 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4107,13 +5027,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 92.71) (xy 220.98 93.98)
+			(xy 222.25 92.71) (xy 222.25 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f932b3d8-239e-448c-b323-8b303593ec91")
+	)
+	(label "SDA{I2C_{2}}"
+		(at 219.71 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a3d5576-8e5b-4996-b960-9defa3f073d9")
 	)
 	(label "pg_romeo"
 		(at 149.86 97.79 0)
@@ -4126,7 +5056,7 @@
 		(uuid "8938bd6f-a0a5-4424-9454-da32830edd4c")
 	)
 	(label "pg_romeo"
-		(at 246.38 109.22 180)
+		(at 248.92 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4134,6 +5064,38 @@
 			(justify right bottom)
 		)
 		(uuid "8ee3a86a-00d8-4dd8-9dad-cfc41905164d")
+	)
+	(label "SCL{I2C_{2}}"
+		(at 219.71 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91d15305-dd40-4b1b-8383-8467fbf077ba")
+	)
+	(hierarchical_label "{I2C}"
+		(shape input)
+		(at 240.03 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7acb4ae5-589e-4739-963c-8d438d485b00")
+	)
+	(hierarchical_label "CH4_ADC"
+		(shape input)
+		(at 198.12 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c2315e0-0ca4-4d68-8f5c-a852fdbec379")
 	)
 	(hierarchical_label "romeo_en"
 		(shape bidirectional)
@@ -4280,7 +5242,7 @@
 	)
 	(symbol
 		(lib_id "lib:GND")
-		(at 209.55 95.25 0)
+		(at 210.82 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4289,7 +5251,7 @@
 		(fields_autoplaced yes)
 		(uuid "05e48292-2485-40e8-aa7a-9d8ac5449e1b")
 		(property "Reference" "#PWR0141"
-			(at 209.55 101.6 0)
+			(at 210.82 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +5260,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 100.33 0)
+			(at 210.82 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +5268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 95.25 0)
+			(at 210.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +5277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 95.25 0)
+			(at 210.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,7 +5286,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 95.25 0)
+			(at 210.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,8 +5307,168 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:C_1u_0402")
+		(at 227.33 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133e85bb-fd69-4ba2-ab95-34c74da775c4")
+		(property "Reference" "C26"
+			(at 229.87 109.2136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C_1u_0402"
+			(at 237.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:C_0402_1005Metric"
+			(at 240.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+			(at 242.57 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+			(at 227.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1005X6S1A105K050BC"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 247.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 250.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 252.73 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "1u"
+			(at 229.87 111.7536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Voltage" ""
+			(at 255.27 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" ""
+			(at 257.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 227.33 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a723cf0-2f75-4824-8fb3-6c1182cb2108")
+		)
+		(pin "2"
+			(uuid "5be3443b-0017-4dc9-baad-ffbb25eb148f")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:GND")
-		(at 182.88 109.22 0)
+		(at 182.88 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4355,7 +5477,7 @@
 		(fields_autoplaced yes)
 		(uuid "22eae84f-f04c-4012-89e4-916d853bdf57")
 		(property "Reference" "#PWR0137"
-			(at 182.88 115.57 0)
+			(at 182.88 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4364,7 +5486,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 114.3 0)
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4372,7 +5494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 109.22 0)
+			(at 182.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +5503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 109.22 0)
+			(at 182.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +5512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 109.22 0)
+			(at 182.88 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +5534,7 @@
 	)
 	(symbol
 		(lib_id "Hardware Components:C_22u_25V_X7R_1210")
-		(at 209.55 95.25 90)
+		(at 210.82 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4421,7 +5543,7 @@
 		(fields_autoplaced yes)
 		(uuid "24362947-214e-4d13-9d69-c9b6e7a26e1e")
 		(property "Reference" "C88"
-			(at 212.09 91.4336 90)
+			(at 213.36 91.4336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4431,7 +5553,7 @@
 			)
 		)
 		(property "Value" "C_22u_25V_X7R_1210"
-			(at 219.71 80.01 0)
+			(at 220.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4442,7 +5564,7 @@
 			)
 		)
 		(property "Footprint" "Hardware Components Footprints:C_1210_3225Metric"
-			(at 222.25 80.01 0)
+			(at 223.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +5575,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C1210C226K3RAC7210.html"
-			(at 224.79 80.01 0)
+			(at 226.06 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +5586,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 22µF, 25V, 1210, ±10%, X7R"
-			(at 209.55 95.25 0)
+			(at 210.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +5595,7 @@
 			)
 		)
 		(property "MPN" "C1210C226K3RAC7210"
-			(at 227.33 80.01 0)
+			(at 228.6 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +5606,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 212.09 93.9736 90)
+			(at 213.36 93.9736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +5616,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 229.87 80.01 0)
+			(at 231.14 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4505,7 +5627,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 232.41 80.01 0)
+			(at 233.68 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +5638,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 234.95 80.01 0)
+			(at 236.22 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +5649,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 237.49 80.01 0)
+			(at 238.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +5660,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 240.03 80.01 0)
+			(at 241.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +5671,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 242.57 74.93 0)
+			(at 243.84 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,7 +5681,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 209.55 95.25 90)
+			(at 210.82 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +5706,7 @@
 	)
 	(symbol
 		(lib_id "lib:GND")
-		(at 220.98 93.98 0)
+		(at 222.25 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4593,7 +5715,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e7a7b0c-6a42-4572-9ecf-30eefb15fd4b")
 		(property "Reference" "#PWR0142"
-			(at 220.98 100.33 0)
+			(at 222.25 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +5724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 99.06 0)
+			(at 222.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,7 +5732,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 93.98 0)
+			(at 222.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4619,7 +5741,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 93.98 0)
+			(at 222.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +5750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 93.98 0)
+			(at 222.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +5772,7 @@
 	)
 	(symbol
 		(lib_id "lib:GND")
-		(at 200.66 95.25 0)
+		(at 201.93 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4659,7 +5781,7 @@
 		(fields_autoplaced yes)
 		(uuid "30b3dee4-6365-4c95-b2ce-5bbda6ce9cc5")
 		(property "Reference" "#PWR0140"
-			(at 200.66 101.6 0)
+			(at 201.93 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +5790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 100.33 0)
+			(at 201.93 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +5798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 95.25 0)
+			(at 201.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +5807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 95.25 0)
+			(at 201.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +5816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 95.25 0)
+			(at 201.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,6 +5831,71 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
 					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:+3V3")
+		(at 227.33 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "318bc342-a646-4929-b951-80e1057e3c09")
+		(property "Reference" "#PWR091"
+			(at 227.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 227.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 227.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1faac503-8ba1-4d88-9b54-ceb3e0da4d12")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -4995,7 +6182,7 @@
 	)
 	(symbol
 		(lib_id "Hardware Components:C_22u_25V_X7R_1210")
-		(at 191.77 95.25 90)
+		(at 193.04 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5004,7 +6191,7 @@
 		(fields_autoplaced yes)
 		(uuid "402d085c-7406-46bc-9891-9ce2eb9f6209")
 		(property "Reference" "C86"
-			(at 194.31 91.4336 90)
+			(at 195.58 91.4336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +6201,7 @@
 			)
 		)
 		(property "Value" "C_22u_25V_X7R_1210"
-			(at 201.93 80.01 0)
+			(at 203.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,7 +6212,7 @@
 			)
 		)
 		(property "Footprint" "Hardware Components Footprints:C_1210_3225Metric"
-			(at 204.47 80.01 0)
+			(at 205.74 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5036,7 +6223,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C1210C226K3RAC7210.html"
-			(at 207.01 80.01 0)
+			(at 208.28 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +6234,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 22µF, 25V, 1210, ±10%, X7R"
-			(at 191.77 95.25 0)
+			(at 193.04 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,7 +6243,7 @@
 			)
 		)
 		(property "MPN" "C1210C226K3RAC7210"
-			(at 209.55 80.01 0)
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +6254,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 194.31 93.9736 90)
+			(at 195.58 93.9736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5077,7 +6264,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 212.09 80.01 0)
+			(at 213.36 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +6275,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 214.63 80.01 0)
+			(at 215.9 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +6286,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 217.17 80.01 0)
+			(at 218.44 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5110,7 +6297,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 219.71 80.01 0)
+			(at 220.98 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5121,7 +6308,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 222.25 80.01 0)
+			(at 223.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5132,7 +6319,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 224.79 74.93 0)
+			(at 226.06 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,7 +6329,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 191.77 95.25 90)
+			(at 193.04 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +6840,7 @@
 	)
 	(symbol
 		(lib_id "lib:+15V")
-		(at 250.19 99.06 0)
+		(at 252.73 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5662,7 +6849,7 @@
 		(fields_autoplaced yes)
 		(uuid "6135b881-ace3-45f0-a5f6-2c3bbf285020")
 		(property "Reference" "#PWR044"
-			(at 250.19 102.87 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +6858,7 @@
 			)
 		)
 		(property "Value" "+16V"
-			(at 250.19 93.98 0)
+			(at 252.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +6866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 99.06 0)
+			(at 252.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +6875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 99.06 0)
+			(at 252.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +6884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 250.19 99.06 0)
+			(at 252.73 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,8 +7075,74 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:GND")
+		(at 209.55 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62aabca8-4e4b-46bb-8b7d-977705900fff")
+		(property "Reference" "#PWR090"
+			(at 209.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2df7937-47a0-45cd-942f-066f1cb550c8")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:R")
-		(at 250.19 102.87 180)
+		(at 252.73 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5898,7 +7151,7 @@
 		(fields_autoplaced yes)
 		(uuid "69eb8e98-446d-4884-be27-6eebbd533cc1")
 		(property "Reference" "R27"
-			(at 243.84 102.87 90)
+			(at 246.38 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +7159,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 246.38 102.87 90)
+			(at 248.92 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5914,7 +7167,7 @@
 			)
 		)
 		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
-			(at 251.968 102.87 90)
+			(at 254.508 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5923,7 +7176,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 250.19 102.87 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +7185,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 250.19 102.87 0)
+			(at 252.73 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +7194,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 250.19 102.87 90)
+			(at 252.73 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +7219,7 @@
 	)
 	(symbol
 		(lib_id "lib:GND")
-		(at 191.77 95.25 0)
+		(at 193.04 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5975,7 +7228,7 @@
 		(fields_autoplaced yes)
 		(uuid "6be286f8-839c-47b4-a65b-471b21b6d626")
 		(property "Reference" "#PWR0138"
-			(at 191.77 101.6 0)
+			(at 193.04 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +7237,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 100.33 0)
+			(at 193.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +7245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 95.25 0)
+			(at 193.04 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +7254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 95.25 0)
+			(at 193.04 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +7263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 95.25 0)
+			(at 193.04 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6025,6 +7278,227 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Analog_DAC:MCP4725xxx-xCH")
+		(at 209.55 121.92 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d6b3bda-d6c8-4349-8e75-76023c27738a")
+		(property "Reference" "U2"
+			(at 213.868 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP4725xxx-xCH"
+			(at 219.456 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 209.55 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
+			(at 209.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "df4533d0-72ce-4be5-a259-41e1bfbbd9d8")
+		)
+		(pin "5"
+			(uuid "f3cd3307-76d0-480c-a2e2-88a64b611cc8")
+		)
+		(pin "1"
+			(uuid "a077909d-68ba-4961-a4c5-6d5ef5111287")
+		)
+		(pin "2"
+			(uuid "bac58611-398e-43b6-86bc-c0cb76d63718")
+		)
+		(pin "3"
+			(uuid "810d5993-95bb-4876-b644-f71e73938c76")
+		)
+		(pin "4"
+			(uuid "d1b49731-e723-41ad-96c6-c7dc9b3dbb5a")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:R_160k_0402")
+		(at 182.88 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "722bef08-0823-4674-aa8e-2420d12d0cef")
+		(property "Reference" "R46"
+			(at 185.42 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_160k_0402"
+			(at 195.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 198.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 200.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, Ceramic, 160 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film"
+			(at 182.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1603GLF"
+			(at 203.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 208.28 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 210.82 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "160k"
+			(at 185.42 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "049d7bcb-a207-4263-b5fc-005ad85cdf4b")
+		)
+		(pin "2"
+			(uuid "571a74ea-4255-4602-90d9-cb3289183c91")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -6098,7 +7572,7 @@
 	)
 	(symbol
 		(lib_id "lib:2N7002_SOT-23-3")
-		(at 257.81 109.22 0)
+		(at 260.35 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6107,7 +7581,7 @@
 		(fields_autoplaced yes)
 		(uuid "744eaff8-58f8-4066-8ec4-bbf94f7de15a")
 		(property "Reference" "Q5"
-			(at 269.24 105.41 0)
+			(at 271.78 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +7591,7 @@
 			)
 		)
 		(property "Value" "2N7002_SOT-23-3"
-			(at 280.67 116.84 0)
+			(at 283.21 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +7602,7 @@
 			)
 		)
 		(property "Footprint" "Hardware Components Footprints:SOT-23-3"
-			(at 280.67 119.38 0)
+			(at 283.21 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +7613,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 280.67 121.92 0)
+			(at 283.21 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +7624,7 @@
 			)
 		)
 		(property "Description" "Power MOSFET, N Channel, 60 V, 115 mA, 1.2 ohm, SOT-23, Surface Mount"
-			(at 317.754 133.604 0)
+			(at 320.294 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6159,7 +7633,7 @@
 			)
 		)
 		(property "MPN" "2N7002"
-			(at 269.24 107.95 0)
+			(at 271.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +7643,7 @@
 			)
 		)
 		(property "Manufacturer" "ON Semiconductor"
-			(at 280.67 127 0)
+			(at 283.21 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +7654,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 280.67 129.54 0)
+			(at 283.21 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6191,7 +7665,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 280.67 132.08 0)
+			(at 283.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +7676,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 257.81 109.22 0)
+			(at 260.35 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +7704,7 @@
 	)
 	(symbol
 		(lib_id "lib:R_10k_0402")
-		(at 182.88 107.95 90)
+		(at 182.88 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6239,7 +7713,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ba0229b-95ed-4f09-9cf0-223428d40c23")
 		(property "Reference" "R26"
-			(at 185.42 104.14 90)
+			(at 185.42 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6249,7 +7723,7 @@
 			)
 		)
 		(property "Value" "R_10k_0402"
-			(at 195.58 87.63 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6260,7 +7734,7 @@
 			)
 		)
 		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
-			(at 198.12 87.63 0)
+			(at 198.12 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +7745,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 200.66 87.63 0)
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,7 +7756,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 182.88 107.95 0)
+			(at 182.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,7 +7765,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1002GLF"
-			(at 203.2 87.63 0)
+			(at 203.2 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +7776,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 205.74 87.63 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6313,7 +7787,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 208.28 87.63 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +7798,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 210.82 87.63 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6335,7 +7809,7 @@
 			)
 		)
 		(property "Val" "10k"
-			(at 185.42 106.68 90)
+			(at 185.42 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6345,7 +7819,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 193.04 87.63 0)
+			(at 193.04 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +7829,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 182.88 107.95 90)
+			(at 182.88 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6380,7 +7854,7 @@
 	)
 	(symbol
 		(lib_id "Hardware Components:R_1k_0402")
-		(at 265.43 92.71 90)
+		(at 267.97 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6389,7 +7863,7 @@
 		(fields_autoplaced yes)
 		(uuid "80934690-6a88-44f0-b94d-5a920df52de2")
 		(property "Reference" "R40"
-			(at 267.97 88.9 90)
+			(at 270.51 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6399,7 +7873,7 @@
 			)
 		)
 		(property "Value" "R_1k_0402"
-			(at 278.13 72.39 0)
+			(at 280.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,7 +7884,7 @@
 			)
 		)
 		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
-			(at 280.67 72.39 0)
+			(at 283.21 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +7895,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 283.21 72.39 0)
+			(at 285.75 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6432,7 +7906,7 @@
 			)
 		)
 		(property "Description" "SMD Chip Resistor, 1 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
-			(at 265.43 92.71 0)
+			(at 267.97 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6441,7 +7915,7 @@
 			)
 		)
 		(property "MPN" "CR0402-FX-1001GLF"
-			(at 285.75 72.39 0)
+			(at 288.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +7926,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 288.29 72.39 0)
+			(at 290.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +7937,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 290.83 72.39 0)
+			(at 293.37 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +7948,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 293.37 72.39 0)
+			(at 295.91 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +7959,7 @@
 			)
 		)
 		(property "Val" "1k"
-			(at 267.97 91.44 90)
+			(at 270.51 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +7969,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 275.59 72.39 0)
+			(at 278.13 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +7995,7 @@
 	)
 	(symbol
 		(lib_id "Hardware Components:C_22u_25V_X7R_1210")
-		(at 200.66 95.25 90)
+		(at 201.93 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6530,7 +8004,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cda0d73-fa43-44cb-a84f-acd9fde73548")
 		(property "Reference" "C87"
-			(at 203.2 91.4336 90)
+			(at 204.47 91.4336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +8014,7 @@
 			)
 		)
 		(property "Value" "C_22u_25V_X7R_1210"
-			(at 210.82 80.01 0)
+			(at 212.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,7 +8025,7 @@
 			)
 		)
 		(property "Footprint" "Hardware Components Footprints:C_1210_3225Metric"
-			(at 213.36 80.01 0)
+			(at 214.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +8036,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.kemet.com/en/us/capacitors/product/C1210C226K3RAC7210.html"
-			(at 215.9 80.01 0)
+			(at 217.17 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +8047,7 @@
 			)
 		)
 		(property "Description" "SMD Multilayer Ceramic Capacitor, 22µF, 25V, 1210, ±10%, X7R"
-			(at 200.66 95.25 0)
+			(at 201.93 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +8056,7 @@
 			)
 		)
 		(property "MPN" "C1210C226K3RAC7210"
-			(at 218.44 80.01 0)
+			(at 219.71 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +8067,7 @@
 			)
 		)
 		(property "Val" "22u"
-			(at 203.2 93.9736 90)
+			(at 204.47 93.9736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6603,7 +8077,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 220.98 80.01 0)
+			(at 222.25 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6614,7 +8088,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 223.52 80.01 0)
+			(at 224.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +8099,7 @@
 			)
 		)
 		(property "Manufacturer" "KEMET"
-			(at 226.06 80.01 0)
+			(at 227.33 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +8110,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 228.6 80.01 0)
+			(at 229.87 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +8121,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 231.14 80.01 0)
+			(at 232.41 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6658,7 +8132,7 @@
 			)
 		)
 		(property "Public" "False"
-			(at 233.68 74.93 0)
+			(at 234.95 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6668,7 +8142,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 200.66 95.25 90)
+			(at 201.93 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6693,7 +8167,7 @@
 	)
 	(symbol
 		(lib_id "lib:GND")
-		(at 265.43 113.03 0)
+		(at 267.97 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6702,7 +8176,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fa63213-29f4-43e8-a561-3748b1f025ce")
 		(property "Reference" "#PWR046"
-			(at 265.43 119.38 0)
+			(at 267.97 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +8185,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 265.43 118.11 0)
+			(at 267.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6719,7 +8193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 113.03 0)
+			(at 267.97 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +8202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 113.03 0)
+			(at 267.97 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6737,7 +8211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 113.03 0)
+			(at 267.97 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6759,7 +8233,7 @@
 	)
 	(symbol
 		(lib_id "lib:LED")
-		(at 265.43 96.52 90)
+		(at 267.97 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6767,7 +8241,7 @@
 		(dnp no)
 		(uuid "9be635d1-10f2-4ae2-9a2b-0756cf41df8f")
 		(property "Reference" "D5"
-			(at 261.112 96.266 0)
+			(at 263.652 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6775,7 +8249,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 262.89 96.266 0)
+			(at 265.43 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +8257,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 265.43 96.52 0)
+			(at 267.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +8266,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 96.52 0)
+			(at 267.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +8275,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 265.43 96.52 0)
+			(at 267.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +8284,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 265.43 96.52 0)
+			(at 267.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +8293,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 265.43 96.52 0)
+			(at 267.97 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,6 +8311,145 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:R_51k_0402")
+		(at 190.5 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a703496e-f5e2-438c-bd32-a13a185922d2")
+		(property "Reference" "R43"
+			(at 193.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R_51k_0402"
+			(at 210.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 210.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 51 kohm, ± 1%, 63 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 190.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-5102GLF"
+			(at 210.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 210.82 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 210.82 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 210.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "51k"
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 210.82 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0a743baa-5116-4ec2-911c-941e7f55ca66")
+		)
+		(pin "1"
+			(uuid "d3a75ba6-3b33-4eab-ba7f-2ab86b6abc1b")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -7085,6 +8698,72 @@
 	)
 	(symbol
 		(lib_id "lib:GND")
+		(at 227.33 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b424ef5f-5b3d-4427-890a-438195d0b4b8")
+		(property "Reference" "#PWR092"
+			(at 227.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.648 115.824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c55af22-71e2-410b-85be-d4c144a449c7")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
 		(at 74.93 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7304,158 +8983,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Hardware Components:R_191k_0402")
-		(at 182.88 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c005b5cb-f6cf-4ef0-be44-fa1d9b65b40c")
-		(property "Reference" "R25"
-			(at 185.42 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_191k_0402"
-			(at 195.58 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
-			(at 198.12 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
-			(at 200.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Chip Resistor, 191 kohm, ± 1%, 100 mW, 0402 [1005 Metric], Thick Film, Precision"
-			(at 182.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CR0402-FX-1913GLF"
-			(at 203.2 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Bourns"
-			(at 205.74 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 208.28 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 210.82 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Val" "191k"
-			(at 185.42 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 193.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 182.88 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53126e1c-cbd4-4977-95d1-22eab66bd98c")
-		)
-		(pin "1"
-			(uuid "79012699-8517-4584-8aef-1ce8f18203dd")
-		)
-		(instances
-			(project "robot-pmu-hw"
-				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lib:Conn_01x02")
-		(at 226.06 90.17 0)
+		(at 227.33 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7464,7 +8993,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6303a11-8e72-4c49-902b-af7bc6fcda60")
 		(property "Reference" "J3"
-			(at 228.6 90.1699 0)
+			(at 229.87 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7473,7 +9002,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 228.6 92.7099 0)
+			(at 229.87 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7482,7 +9011,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 226.06 90.17 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +9020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 90.17 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7500,7 +9029,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 226.06 90.17 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +9038,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 226.06 90.17 0)
+			(at 227.33 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,6 +9056,72 @@
 			(project "robot-pmu-hw"
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 229.87 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c645f910-eba1-4fbb-a8e0-f10b7dd2b80e")
+		(property "Reference" "#PWR093"
+			(at 229.87 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faccde14-a013-48dc-9e13-75879a409adc")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -7862,6 +9457,156 @@
 		)
 	)
 	(symbol
+		(lib_id "lib:R_10k_0402")
+		(at 229.87 130.81 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dabe3884-5fba-4dbc-86b9-407ede913a06")
+		(property "Reference" "R45"
+			(at 232.41 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_10k_0402"
+			(at 242.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:R_0402_1005Metric"
+			(at 245.11 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf"
+			(at 247.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Chip Resistor, 10 kohm, ± 1%, 62.5 mW, 0402 [1005 Metric], Thick Film, General Purpose"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CR0402-FX-1002GLF"
+			(at 250.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Bourns"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 255.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 257.81 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Val" "10k"
+			(at 232.41 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 240.03 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 229.87 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48ad3137-32e8-4567-b8dd-779d94d2667f")
+		)
+		(pin "2"
+			(uuid "87512cb8-f19a-45a5-b361-57c38f82ebb9")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/5f5b5737-e9f8-44d3-b0cf-491c38c8305c"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:GND")
 		(at 149.86 107.95 0)
 		(unit 1)
@@ -8089,7 +9834,7 @@
 	)
 	(symbol
 		(lib_id "lib:+15V")
-		(at 265.43 87.63 0)
+		(at 267.97 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8098,7 +9843,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7afe3a1-75dc-4e4e-9ba6-50b9807569db")
 		(property "Reference" "#PWR045"
-			(at 265.43 91.44 0)
+			(at 267.97 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +9852,7 @@
 			)
 		)
 		(property "Value" "+16V"
-			(at 265.43 82.55 0)
+			(at 267.97 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8115,7 +9860,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 87.63 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8124,7 +9869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 87.63 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8133,7 +9878,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 265.43 87.63 0)
+			(at 267.97 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
