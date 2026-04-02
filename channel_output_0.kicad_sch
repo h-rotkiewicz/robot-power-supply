@@ -2068,6 +2068,150 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Hardware Components:TP_2.54mm_THT_5002"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 15.24 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TP_2.54mm_THT_5002"
+				(at 15.24 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+				(at 15.24 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+				(at 15.24 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Testpoint THT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "5002"
+				(at 15.24 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Keystone Electronics"
+				(at 15.24 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 15.24 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 15.24 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TESTPOINT, THT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TP_2.54mm_THT_5002_1_1"
+				(circle
+					(center 3.175 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPS56637RPAR_1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4693,6 +4837,12 @@
 		(uuid "303588c1-9700-4769-8139-9433bed4249a")
 	)
 	(junction
+		(at 147.32 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "315109bd-656d-4e26-9280-23cac7b493f0")
+	)
+	(junction
 		(at 165.1 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4711,10 +4861,22 @@
 		(uuid "342d5e81-160a-4057-baee-2284c06bc47f")
 	)
 	(junction
+		(at 165.1 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40d75495-6196-4b73-85a8-54131acb307a")
+	)
+	(junction
 		(at 91.44 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46f9d237-9deb-473b-be52-e6195c4ad153")
+	)
+	(junction
+		(at 99.06 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57e0581f-c1d5-41b6-b439-303c9b484ff3")
 	)
 	(junction
 		(at 175.26 55.88)
@@ -4765,10 +4927,22 @@
 		(uuid "b444f3b8-02d5-4b23-bede-3de2b9a09a3f")
 	)
 	(junction
+		(at 198.12 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5131e71-4bdc-473a-9532-437b3274e735")
+	)
+	(junction
 		(at 66.04 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd351f98-859f-4c5c-97fb-c1d406d12c3a")
+	)
+	(junction
+		(at 78.74 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc30863-65f5-4201-92f5-0c4f39c37405")
 	)
 	(junction
 		(at 209.55 73.66)
@@ -4781,6 +4955,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db77084d-2f9a-48e9-8b6d-06a02eb90f90")
+	)
+	(junction
+		(at 167.64 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e814ace3-79eb-4f4c-a35d-d1d7d0248218")
 	)
 	(junction
 		(at 146.05 55.88)
@@ -4814,6 +4994,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 55.88) (xy 153.67 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a2837c-bbdb-429c-81c7-42d217e66837")
+	)
+	(wire
+		(pts
 			(xy 165.1 59.69) (xy 165.1 60.96)
 		)
 		(stroke
@@ -4842,6 +5032,16 @@
 		)
 		(uuid "0fe88ec1-7482-4060-81ee-b16179875cf6")
 	)
+	(wire
+		(pts
+			(xy 78.74 55.88) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1361d64a-365c-43b8-b1d1-5921731ece43")
+	)
 	(bus
 		(pts
 			(xy 218.44 82.55) (xy 218.44 85.09)
@@ -4851,6 +5051,16 @@
 			(type default)
 		)
 		(uuid "13d9f297-aee2-4ff6-8ce3-12c86e758750")
+	)
+	(wire
+		(pts
+			(xy 165.1 73.66) (xy 168.91 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff82fd6-0ae1-49c5-9a0e-d42f05d090be")
 	)
 	(wire
 		(pts
@@ -4884,6 +5094,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 38.1) (xy 200.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "356e85f2-72ca-4503-a23b-1ee5130469f6")
+	)
+	(wire
+		(pts
 			(xy 184.15 55.88) (xy 193.04 55.88)
 		)
 		(stroke
@@ -4891,6 +5111,16 @@
 			(type default)
 		)
 		(uuid "38f84974-bebc-4a1a-ac95-3d85f6c23cfb")
+	)
+	(wire
+		(pts
+			(xy 99.06 52.07) (xy 99.06 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d142a60-4125-4256-912f-6cca8cca6c9b")
 	)
 	(wire
 		(pts
@@ -4964,13 +5194,23 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 38.1) (xy 200.66 38.1)
+			(xy 191.77 38.1) (xy 198.12 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54245f36-baf9-402d-bc21-dff052b4e6ff")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 146.05 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544b1b7f-77e0-4c16-883c-7a92e1938ce0")
 	)
 	(wire
 		(pts
@@ -4981,16 +5221,6 @@
 			(type default)
 		)
 		(uuid "583eea20-e032-4108-8fdc-ecf5c6aaba0e")
-	)
-	(wire
-		(pts
-			(xy 146.05 55.88) (xy 153.67 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599a0d8b-524a-480e-8955-2b3eabe56a39")
 	)
 	(wire
 		(pts
@@ -5124,13 +5354,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 91.44 55.88)
+			(xy 74.93 55.88) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89fe7d97-b809-457b-ad0d-b3ca46c80250")
+	)
+	(wire
+		(pts
+			(xy 147.32 49.53) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92187d52-084c-44a5-86c7-3786b9da9634")
 	)
 	(wire
 		(pts
@@ -5154,6 +5394,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 73.66) (xy 165.1 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d9490ca-d3a1-41fd-9897-ca775ab34461")
+	)
+	(wire
+		(pts
 			(xy 201.93 85.09) (xy 215.9 85.09)
 		)
 		(stroke
@@ -5174,7 +5424,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 55.88) (xy 175.26 55.88)
+			(xy 165.1 55.88) (xy 167.64 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5264,6 +5514,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 55.88) (xy 175.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b85d4919-50af-45ea-807c-2baccad6c314")
+	)
+	(wire
+		(pts
 			(xy 44.45 55.88) (xy 48.26 55.88)
 		)
 		(stroke
@@ -5294,7 +5554,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 67.31) (xy 165.1 81.28)
+			(xy 165.1 67.31) (xy 165.1 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5871,6 +6131,342 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 137.16 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a95c2a4-0ab8-498d-b5a4-d70a17326720")
+		(property "Reference" "#PWR0126"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eff7a3ca-21f7-4b2b-8961-ae86e48643a5")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 167.64 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d20ce80-26d8-40d8-8b52-59dff1a2331b")
+		(property "Reference" "TP1"
+			(at 170.18 51.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 182.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 167.64 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 170.18 53.975 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 185.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 187.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0040d5c-6969-434c-a1d0-d9d94389ceee")
+		)
+		(instances
+			(project ""
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP2")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP1")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP3")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 78.74 55.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e1c6327-2ea4-4d49-809c-1a28c1145fb7")
+		(property "Reference" "TP9"
+			(at 81.28 51.435 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 78.74 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 81.28 53.975 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 96.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 99.06 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8af33acf-585e-4d37-8e19-fb80ae1a884a")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP10")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP9")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP11")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -7554,6 +8150,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 147.32 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52369055-7fa0-4839-9b78-7daddeed24f6")
+		(property "Reference" "TP19"
+			(at 149.86 45.085 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 157.48 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+			(at 160.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 147.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 149.86 47.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 170.18 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bab9ea0c-83f8-4031-ba44-ff873a93b929")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP19")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP19")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP19")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:+15V")
 		(at 44.45 54.61 0)
 		(unit 1)
@@ -8336,6 +9061,135 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 137.16 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "720f8363-5dd3-432a-9237-03a2768e9241")
+		(property "Reference" "TP22"
+			(at 139.7 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 137.16 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 139.7 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69ceb01d-ea49-4e59-9d7f-04c8a1355514")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP23")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP22")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -10090,6 +10944,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 198.12 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5f01124-b6b3-47cb-9783-454b858c3871")
+		(property "Reference" "TP13"
+			(at 200.66 33.655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 208.28 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+			(at 210.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 213.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 198.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 200.66 36.195 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 215.9 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 218.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 220.98 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29809750-9ec0-4cf8-9ebb-76349b353409")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP14")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP13")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP15")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Analog_DAC:MCP4725xxx-xCH")
 		(at 191.77 87.63 0)
 		(mirror y)
@@ -10176,6 +11159,213 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 168.91 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be06abbd-b05c-41cc-a79e-5bbf37a56e3e")
+		(property "Reference" "TP5"
+			(at 171.45 69.215 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 179.07 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+			(at 181.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 168.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 171.45 71.755 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 186.69 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 189.23 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa44112c-3489-4a48-b1c0-da6663dbd46e")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP6")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP5")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP7")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lib:GND")
+		(at 148.59 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c207ec73-4f08-4170-8e86-e0c96b8a455d")
+		(property "Reference" "#PWR0130"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49f7fe0f-e07e-474f-841a-a39e1d47049e")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -10676,6 +11866,135 @@
 		)
 	)
 	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 148.59 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0935401-df4f-4716-9068-e3a3573f88c5")
+		(property "Reference" "TP26"
+			(at 151.13 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 158.75 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+			(at 161.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 151.13 85.725 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 166.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 168.91 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 171.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef596574-d1d6-4159-b39c-9fdfdd9a03ed")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP27")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP26")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP28")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lib:GND")
 		(at 200.66 44.45 0)
 		(unit 1)
@@ -10837,6 +12156,135 @@
 				)
 				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Hardware Components:TP_2.54mm_THT_5002")
+		(at 99.06 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5e7dba5-e2c5-4282-82eb-2d19cc3fb0ba")
+		(property "Reference" "TP17"
+			(at 101.6 47.625 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_2.54mm_THT_5002"
+			(at 109.22 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Hardware Components Footprints:TP_2.54mm_THT_Keystone_500x"
+			(at 111.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1311"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Testpoint THT"
+			(at 99.06 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "5002"
+			(at 101.6 50.165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Keystone Electronics"
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 121.92 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7072935-b111-4d62-9590-2518c084c3b9")
+		)
+		(instances
+			(project "robot-pmu-hw"
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/1f323277-181d-40d4-bd4e-44f63c004b51"
+					(reference "TP18")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/3adc4156-9565-4c05-a192-d0b5e3ebe13a"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/c55015ba-7066-4a27-85a3-e02e5b198070"
+					(reference "TP20")
+					(unit 1)
+				)
+				(path "/ca7f4c4c-3c96-472a-b66f-ec124f8cf9b5/d0cd7c0d-5410-4ef7-bf95-0b680ed8181c"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
