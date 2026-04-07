@@ -8760,10 +8760,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fa60805-2882-410e-a745-6655b6c5d1b1")
+			(uuid "8fa60805-2882-410e-a745-6655b6c5d1b2")
 		)
 		(pin "2"
-			(uuid "1bbfefb2-1118-4394-abef-ac92b5dd62e1")
+			(uuid "1bbfefb2-1118-4394-abef-ac92b5dd62e2")
 		)
 		(instances
 			(project "robot-pmu-hw"
@@ -15227,10 +15227,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "de044b5b-aec9-45d9-9c2f-e8c2cd2e84b3")
+			(uuid "de044b5b-aec9-45d9-9c2f-e8c2cd2e84b4")
 		)
 		(pin "2"
-			(uuid "aa7a001b-bbf9-4e5a-b9ef-022ba546d87c")
+			(uuid "aa7a001b-bbf9-4e5a-b9ef-022ba546d87d")
 		)
 		(instances
 			(project "robot-pmu-hw"
